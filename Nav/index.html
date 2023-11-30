@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Navbar</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <span onclick="ToogleMenu()" class="menuIcon" id="toogle"></span>
+      </div>
+      <div class="logo">
+        <img src="img/logo.svg" alt="" />
+        <img class="logoZero" src="img/logoZero.svg" alt="" />
+        <img class="logoOne" src="img/logoOne.svg" alt="" />
+      </div>
+      <div class="fullPageMenu" id="nav">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+        <div class="banner">
+          <div class="chatSection">
+            <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <p>Speack on<br />the phone</p>
+          </div>
+          <div class="callSection">
+            <a href="#"><i class="far fa-comment"></i></a>
+            <p>Chat to<br />us now</p>
+          </div>
+          <div class="sosiacSection">
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <p>Sent us<br />an email</p>
+          </div>
+          <div class="emailSection">
+            <a href="#"><i class="fa fa-book"></i></a>
+            <p>Book a<br />consultation</p>
+          </div>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <li class="menuTransition">
+              <a href="#" data-text="Home">Home</a>
+            </li>
+            <li class="menuTransition">
+              <a href="#" data-text="Services">Services</a>
+            </li>
+            <li class="menuTransition">
+              <a href="#" data-text="Contact-us">Contact-us</a>
+            </li>
+            <li class="menuTransition">
+              <a href="#" data-text="Projects">Projects</a>
+            </li>
+            <li class="menuTransition">
+              <a href="#" data-text="Blog">Blog</a>
+            </li>
+            <li class="menuTransition">
+              <a href="#" data-text="Shop">Shop</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
